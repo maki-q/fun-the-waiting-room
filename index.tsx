@@ -78,7 +78,10 @@ function formatTime(seconds: number): string {
 const S = {
   root: {
     position: "fixed" as const,
-    inset: 0,
+    top: 64,
+    left: 0,
+    right: 0,
+    bottom: 0,
     display: "flex",
     flexDirection: "column" as const,
     alignItems: "center",
